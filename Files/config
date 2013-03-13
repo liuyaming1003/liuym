@@ -1,0 +1,15 @@
+#Host可以看作是一个你要识别的模式，对识别的模式，进行配置对应的的主机名和ssh文件
+Host iMate
+HostName 192.168.1.10      
+User liuym                   
+IdentityFile ~/.ssh/id_rsa 
+
+Host liuym_study_IOS
+HostName github.com
+User liuym
+IdentityFile ~/.ssh/github_rsa
+
+Host liuym
+HostName github.com
+User liuym
+IdentityFile ~/.ssh/github_12_rsa
